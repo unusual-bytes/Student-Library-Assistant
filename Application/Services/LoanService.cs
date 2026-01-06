@@ -1,4 +1,6 @@
-namespace Student_Library_Assistant;
+using Student_Library_Assistant.Domain.Entities;
+
+namespace Student_Library_Assistant.Application.Services;
 
 public class LoanService
 {

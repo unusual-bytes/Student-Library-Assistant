@@ -1,4 +1,4 @@
-namespace Student_Library_Assistant;
+namespace Student_Library_Assistant.Domain.Entities;
 
 public class Student
 {

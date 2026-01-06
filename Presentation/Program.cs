@@ -1,6 +1,8 @@
 ﻿using Student_Library_Assistant;
 using System;
 using System.Collections.Generic;
+using Student_Library_Assistant.Domain.Entities;
+using Student_Library_Assistant.Infrastructure.Repositories;
 
 Book book1 = new Book
     {
@@ -27,6 +29,11 @@ Student student1 = new Student
 
 students.Add(student1);
 
+var studentRepo = new StudentRepository();
+
+studentRepo.Add(student1);
+
+
 Student student2 = new Student
 {
     Id = 2,
@@ -37,10 +44,7 @@ Student student2 = new Student
 
 students.Add(student2);
 
-Console.WriteLine(students.Count);
-Console.WriteLine(students[0].Name);
-
-students.Remove(student1);
-
-Console.WriteLine(students.Count);
-Console.WriteLine(students[0].Name);
+foreach (var student in studentRepo.GetAll())
+{
+    Console.WriteLine(student.Name);
+}
