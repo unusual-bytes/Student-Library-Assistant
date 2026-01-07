@@ -4,5 +4,5 @@ namespace Student_Library_Assistant.Infrastructure.Repositories;
 
 public class StudentRepository : BaseRepository<Student>
 {
-    protected override string FilePath => "../../../Infrastructure/Data/students.json";
+    protected override string FilePath => "Infrastructure/Data/students.json";
 }
