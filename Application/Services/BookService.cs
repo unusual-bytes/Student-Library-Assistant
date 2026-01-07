@@ -5,10 +5,10 @@ namespace Student_Library_Assistant.Application.Services;
 
 public class BookService
 {
-    private readonly BaseRepository<Book> _bookRepo;
+    private readonly BookRepository _bookRepo;
     private readonly LoanRepository _loanRepo;
 
-    public BookService(BaseRepository<Book> bookRepo, LoanRepository loanRepo)
+    public BookService(BookRepository bookRepo, LoanRepository loanRepo)
     {
         _bookRepo = bookRepo;
         _loanRepo = loanRepo;
