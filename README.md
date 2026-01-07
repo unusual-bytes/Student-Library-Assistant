@@ -10,7 +10,7 @@
 
 # 🚀Run
 ```bash
-cd Student Library Assistant
+cd Student-Library-Assistant-master
 dotnet run
 ```
 
