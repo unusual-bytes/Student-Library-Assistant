@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "Id": 1,
+    "Title": "Think and Grow Rich",
+    "Year": 1937,
+    "Author": "Napoleon Hill",
+    "IsAvailable": true
+  },
+  {
+    "Id": 2,
+    "Title": "Harry Potter and the Sorcerer's Stone",
+    "Year": 1997,
+    "Author": "J.K. Rowling",
+    "IsAvailable": true
+  },
+  {
+    "Id": 3,
+    "Title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "Year": 2008,
+    "Author": "Robert C. Martin",
+    "IsAvailable": true
+  },
+  {
+    "Id": 4,
+    "Title": "The Pragmatic Programmer: Your Journey to Mastery",
+    "Year": 1999,
+    "Author": "Andrew Hunt and David Thomas",
+    "IsAvailable": true
+  },
+  {
+    "Id": 5,
+    "Title": "Introduction to Algorithms",
+    "Year": 2009,
+    "Author": "Thomas H. Cormen, et al.",
+    "IsAvailable": true
+  },
+  {
+    "Id": 6,
+    "Title": "To Kill a Mockingbird",
+    "Year": 1960,
+    "Author": "Harper Lee",
+    "IsAvailable": true
+  },
+  {
+    "Id": 7,
+    "Title": "The C# Programming Yellow Book",
+    "Year": 2020,
+    "Author": "Rob Miles",
+    "IsAvailable": true
+  },
+  {
+    "Id": 8,
+    "Title": "The Fault in Our Stars",
+    "Year": 2012,
+    "Author": "John Green",
+    "IsAvailable": true
+  },
+  {
+    "Id": 9,
+    "Title": "1984",
+    "Year": 1949,
+    "Author": "George Orwell",
+    "IsAvailable": true
+  },
+  {
+    "Id": 10,
+    "Title": "Educated",
+    "Year": 2018,
+    "Author": "Tara Westover",
+    "IsAvailable": true
+  }
+]

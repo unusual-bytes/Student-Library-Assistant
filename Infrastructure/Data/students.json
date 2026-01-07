@@ -1,23 +1,37 @@
 [
   {
     "Id": 1,
-    "Name": "Georgi",
+    "Name": "Ivan Petrov",
     "Year": 2,
-    "FacultyNumber": "4302",
+    "FacultyNumber": "A123",
     "BorrowedBooks": 0
   },
   {
-    "Id": 1,
-    "Name": "Georgi",
+    "Id": 2,
+    "Name": "Mariya Georgieva",
     "Year": 2,
-    "FacultyNumber": "4302",
+    "FacultyNumber": "A124",
     "BorrowedBooks": 0
   },
   {
-    "Id": 1,
-    "Name": "Georgi",
+    "Id": 3,
+    "Name": "Georgi Ivanov",
     "Year": 2,
-    "FacultyNumber": "4302",
+    "FacultyNumber": "B123",
+    "BorrowedBooks": 0
+  },
+  {
+    "Id": 4,
+    "Name": "Elena Dimitrova",
+    "Year": 2,
+    "FacultyNumber": "B124",
+    "BorrowedBooks": 0
+  },
+  {
+    "Id": 5,
+    "Name": "Nikola Stoyanov",
+    "Year": 2,
+    "FacultyNumber": "B125",
     "BorrowedBooks": 0
   }
 ]
