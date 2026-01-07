@@ -99,7 +99,7 @@ public class BooksMenu
 
         service.AddBook(newBook);
         AnsiConsole.MarkupLine("[green]Book added successfully![/]");
-        Pause();
+        Program.TaskComplete();
     }
 
     static void RemoveBook(BookService service)
@@ -108,7 +108,7 @@ public class BooksMenu
         if (!books.Any())
         {
             AnsiConsole.MarkupLine("[red]No books available.[/]");
-            Pause();
+            Program.TaskComplete();
             return;
         }
 
@@ -133,12 +133,6 @@ public class BooksMenu
             AnsiConsole.MarkupLine($"[red]{ex.Message}[/]");
         }
 
-        Pause();
-    }
-
-    static void Pause()
-    {
-        AnsiConsole.MarkupLine("\n[grey]Press any key to continue...[/]");
-        Console.ReadKey(true);
+        Program.TaskComplete();
     }
 }

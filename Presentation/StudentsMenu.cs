@@ -99,7 +99,7 @@ public class StudentsMenu
 
         service.AddStudent(newStudent);
         AnsiConsole.MarkupLine("[green]Student added successfully![/]");
-        Pause();
+        Program.TaskComplete();
     }
 
     static void RemoveStudent(StudentService service)
@@ -108,7 +108,7 @@ public class StudentsMenu
         if (!students.Any())
         {
             AnsiConsole.MarkupLine("[red]No students available.[/]");
-            Pause();
+            Program.TaskComplete();
             return;
         }
 
@@ -133,12 +133,6 @@ public class StudentsMenu
             AnsiConsole.MarkupLine($"[red]{ex.Message}[/]");
         }
 
-        Pause();
-    }
-
-    static void Pause()
-    {
-        AnsiConsole.MarkupLine("\n[grey]Press any key to continue...[/]");
-        Console.ReadKey(true);
+        Program.TaskComplete();
     }
 }

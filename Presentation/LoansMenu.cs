@@ -110,7 +110,7 @@ public class LoansMenu
         if (!students.Any())
         {
             AnsiConsole.MarkupLine("[yellow]No students available.[/]");
-            Pause();
+            Program.TaskComplete();
             return;
         }
 
@@ -125,7 +125,7 @@ public class LoansMenu
         if (!availableBooks.Any())
         {
             AnsiConsole.MarkupLine("[yellow]No available books to loan.[/]");
-            Pause();
+            Program.TaskComplete();
             return;
         }
 
@@ -146,7 +146,7 @@ public class LoansMenu
             AnsiConsole.MarkupLine($"[red]{ex.Message}[/]");
         }
 
-        Pause();
+        Program.TaskComplete();
     }
 
     private static void ReturnBook(LoanService loanService, StudentService studentService, BookService bookService)
@@ -155,7 +155,7 @@ public class LoansMenu
         if (!studentsWithLoans.Any())
         {
             AnsiConsole.MarkupLine("[yellow]No students have borrowed books.[/]");
-            Pause();
+            Program.TaskComplete();
             return;
         }
 
@@ -170,7 +170,7 @@ public class LoansMenu
         if (!loanedBooks.Any())
         {
             AnsiConsole.MarkupLine("[yellow]No books to return.[/]");
-            Pause();
+            Program.TaskComplete();
             return;
         }
 
@@ -191,12 +191,6 @@ public class LoansMenu
             AnsiConsole.MarkupLine($"[red]{ex.Message}[/]");
         }
 
-        Pause();
-    }
-
-    private static void Pause()
-    {
-        AnsiConsole.MarkupLine("\n[grey]Press any key to continue...[/]");
-        Console.ReadKey(true);
+        Program.TaskComplete();
     }
 }
