@@ -17,3 +17,6 @@ dotnet run
 # 📚Development
 - Uses .NET 8.0.x
 - CLI UI built using [Spectre.Console](https://spectreconsole.net/) Features
+
+<img width="959" height="392" alt="image" src="https://github.com/user-attachments/assets/afd322ef-e55a-4daa-93c8-737d69f2c3fd" />
+
